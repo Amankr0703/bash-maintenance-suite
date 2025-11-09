@@ -1,90 +1,91 @@
-🧰 Bash Scripting Suite for System Maintenance
+<h1>🧰 Bash Scripting Suite for System Maintenance</h1>
 
-<br>
+<h2>📄 Project Overview</h2>
+<p>
+This project is a <b>Bash scripting suite</b> designed to automate key system maintenance tasks in Linux. 
+It includes scripts for <b>system backups</b>, <b>updates</b>, <b>log monitoring</b>, and a combined maintenance menu for easy execution.
+</p>
+<p>
+This project was developed as part of <b>Assignment 5 (LinuxOS and LSP)</b>.
+</p>
 
-📄 Project Overview
+<hr>
 
-This project is a Bash scripting suite designed to automate key system maintenance tasks in Linux. It includes scripts for system backups, updates, log monitoring, and a combined maintenance menu for easy execution.
-
-The project was created as part of Assignment 5 (LinuxOS and LSP).
-🎯 Objective
-
+<h2>🎯 Objective</h2>
+<p>
 To write a suite of Bash scripts that automate system maintenance activities such as:
+</p>
+<ul>
+  <li>Performing backups</li>
+  <li>Updating and cleaning the system</li>
+  <li>Monitoring system logs</li>
+  <li>Integrating all scripts into a single executable suite with a user-friendly menu</li>
+</ul>
 
-Performing backups
+<hr>
 
-Updating and cleaning the system
+<h2>📅 Day-wise Task Breakdown</h2>
 
-Monitoring system logs
+<h3>Day 1 – Automated System Backup</h3>
+<p>Write a script that performs automated system backups (e.g., compressing important directories and saving them with timestamps).</p>
 
-Integrating all scripts into a single executable suite with a user-friendly menu
+<h3>Day 2 – System Update and Cleanup</h3>
+<p>Create a script that updates all system packages and removes unnecessary files or packages.</p>
 
-📅 Day-wise Task Breakdown
+<h3>Day 3 – Log Monitoring</h3>
+<p>Develop a script to monitor system logs and generate alerts when certain conditions (like errors or warnings) are detected.</p>
 
-<br>
+<h3>Day 4 – Maintenance Suite Menu</h3>
+<p>Combine all the scripts into one main script with a simple <b>menu-driven interface</b> allowing the user to choose which maintenance task to perform.</p>
 
-Day 1 – Automated System Backup
+<h3>Day 5 – Testing and Error Handling</h3>
+<p>Test all scripts and add error handling, input validation, and logging functionality for better reliability and debugging.</p>
 
-Write a script that performs automated system backups (e.g., compressing important directories and saving them with timestamps).
+<hr>
 
-Day 2 – System Update and Cleanup
+<h2>⚙️ Features</h2>
+<ul>
+  <li>🗂️ Automated system backups with timestamps</li>
+  <li>🔄 One-click system updates and cleanup</li>
+  <li>🔍 Log monitoring with alert mechanism</li>
+  <li>🧭 Interactive menu for maintenance tasks</li>
+  <li>⚠️ Built-in error handling and logging</li>
+</ul>
 
-Create a script that updates all system packages and removes unnecessary files or packages.
+<hr>
 
-Day 3 – Log Monitoring
+<h2>🚀 How to Run</h2>
+<ol>
+  <li><b>Clone the Repository</b><br>
+  <pre><code>git clone https://github.com/yourusername/bash-system-maintenance-suite.git
+cd bash-system-maintenance-suite
+  </code></pre></li>
 
-Develop a script to monitor system logs and generate alerts when certain conditions (like errors or warnings) are detected.
+  <li><b>Give Execution Permission</b><br>
+  <pre><code>chmod +x *.sh
+  </code></pre></li>
 
-Day 4 – Maintenance Suite Menu
+  <li><b>Run the Main Maintenance Menu</b><br>
+  <pre><code>./maintenance_suite.sh
+  </code></pre></li>
+</ol>
 
-Combine all the scripts into one main script with a simple menu-driven interface allowing the user to choose which maintenance task to perform.
+<hr>
 
-Day 5 – Testing and Error Handling
+<h2>🧩 File Structure</h2>
 
-Test all scripts and add error handling, input validation, and logging functionality for better reliability and debugging.
-
-⚙️ Features
-
-🗂️ Automated system backups with timestamps
-
-🔄 One-click system updates and cleanup
-
-🔍 Log monitoring with alert mechanism
-
-🧭 Interactive menu for maintenance tasks
-
-⚠️ Built-in error handling and logging
-
-🚀 How to Run
-
-Clone the Repository
-
-- git clone https://github.com/Amankr0703/bash-system-maintenance-suite.git
-- cd bash-system-maintenance-suite
-
-
-Give Execution Permission
-
-- chmod +x *.sh
-
-
-Run the Main Maintenance Menu
-
-./maintenance_suite.sh
-
-🧩 File Structure
-<br>
+<pre>
 bash-system-maintenance-suite/
-│
-├── backup.sh                # Day 1 - Backup script
-├── system_update.sh         # Day 2 - Update & cleanup script
-├── log_monitor.sh           # Day 3 - Log monitoring script
-├── maintenance_suite.sh     # Day 4 - Combined menu script
-├── README.md                # Project documentation
-└── logs/                    # Log files generated during execution
-<br>
+├── backup.sh               # Day 1 - Backup script
+├── system_update.sh        # Day 2 - Update & cleanup script
+├── log_monitor.sh          # Day 3 - Log monitoring script
+├── maintenance_suite.sh    # Day 4 - Combined menu script
+├── README.md               # Project documentation
+└── logs/                   # Log files generated during execution
+</pre>
 
-🧑‍💻 Author
+<hr>
 
-AMAN KUMAR
-Assignment 5 – LinuxOS and LSP
+<h2>🧑‍💻 Author</h2>
+<p><b>Your Name</b><br>
+<i>Assignment 5 – LinuxOS and LSP</i></p>
