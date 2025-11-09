@@ -17,6 +17,7 @@ Monitoring system logs
 Integrating all scripts into a single executable suite with a user-friendly menu
 
 📅 Day-wise Task Breakdown
+<br>
 Day 1 – Automated System Backup
 
 Write a script that performs automated system backups (e.g., compressing important directories and saving them with timestamps).
