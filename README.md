@@ -1,4 +1,7 @@
 🧰 Bash Scripting Suite for System Maintenance
+
+<br>
+
 📄 Project Overview
 
 This project is a Bash scripting suite designed to automate key system maintenance tasks in Linux. It includes scripts for system backups, updates, log monitoring, and a combined maintenance menu for easy execution.
@@ -17,7 +20,9 @@ Monitoring system logs
 Integrating all scripts into a single executable suite with a user-friendly menu
 
 📅 Day-wise Task Breakdown
+
 <br>
+
 Day 1 – Automated System Backup
 
 Write a script that performs automated system backups (e.g., compressing important directories and saving them with timestamps).
@@ -54,7 +59,7 @@ Test all scripts and add error handling, input validation, and logging functiona
 
 Clone the Repository
 
-- git clone https://github.com/yourusername/bash-system-maintenance-suite.git
+- git clone https://github.com/Amankr0703/bash-system-maintenance-suite.git
 - cd bash-system-maintenance-suite
 
 
@@ -68,6 +73,7 @@ Run the Main Maintenance Menu
 ./maintenance_suite.sh
 
 🧩 File Structure
+<br>
 bash-system-maintenance-suite/
 │
 ├── backup.sh                # Day 1 - Backup script
@@ -76,6 +82,7 @@ bash-system-maintenance-suite/
 ├── maintenance_suite.sh     # Day 4 - Combined menu script
 ├── README.md                # Project documentation
 └── logs/                    # Log files generated during execution
+<br>
 
 🧑‍💻 Author
 
