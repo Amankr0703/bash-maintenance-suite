@@ -57,7 +57,7 @@ To write a suite of Bash scripts that automate system maintenance activities suc
 <h2>🚀 How to Run</h2>
 <ol>
   <li><b>Clone the Repository</b><br>
-  <pre><code>git clone https://github.com/yourusername/bash-system-maintenance-suite.git
+  <pre><code>git clone https://github.com/Amankr0703/bash-system-maintenance-suite.git
 cd bash-system-maintenance-suite
   </code></pre></li>
 
@@ -87,5 +87,5 @@ bash-system-maintenance-suite/
 <hr>
 
 <h2>🧑‍💻 Author</h2>
-<p><b>Your Name</b><br>
+<p><b>Aman Kumar</b><br>
 <i>Assignment 5 – LinuxOS and LSP</i></p>
